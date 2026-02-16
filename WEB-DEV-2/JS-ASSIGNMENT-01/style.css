@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #8fb7ff, #8fd3c7);
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 360px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+}
+
+.box h2 {
+    color: #5b6ce1;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+}
+
+textarea {
+    resize: none;
+    height: 70px;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.action-btns {
+    display: flex;
+    gap: 10px;
+}
+
+.action-btns button {
+    width: 50%;
+}
+
+#events .event {
+    background: #eef2ff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+.full {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.dom-demo {
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 6px;
+}
